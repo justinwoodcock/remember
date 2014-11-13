@@ -3,20 +3,21 @@
 var remember = angular.module('remember', [
     'ui.router',
     'ui.bootstrap',
-    'restangular'
+    'restangular',
+    'duParallax'
 ]);
 
 remember.config(function($stateProvider, $urlRouterProvider, $httpProvider) {
     $httpProvider.defaults.useXDomain = true;
     $stateProvider.state('template', {
-        url: '/template',
+        url: '/',
         views: {
             header: {
                 templateUrl: '/components/header/index.html'
             },
             content: {
-                templateUrl: '/components/_template/index.html',
-                controller: 'TemplateController'
+                templateUrl: '/components/main/index.html',
+                controller: 'MainController'
             },
             footer: {
                 templateUrl: '/components/footer/index.html'
@@ -24,7 +25,7 @@ remember.config(function($stateProvider, $urlRouterProvider, $httpProvider) {
         }
     });
 
-    $urlRouterProvider.otherwise('template');
+    $urlRouterProvider.otherwise('/');
 });
 
 remember.config(['RestangularProvider',
