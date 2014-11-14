@@ -4,7 +4,8 @@ var remember = angular.module('remember', [
     'ui.router',
     'ui.bootstrap',
     'restangular',
-    'duParallax'
+    'duParallax', 
+    'ngSanitize'
 ]);
 
 remember.config(function($stateProvider, $urlRouterProvider, $httpProvider) {
