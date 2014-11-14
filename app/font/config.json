@@ -35,6 +35,12 @@
       ]
     },
     {
+      "uid": "9755f76110ae4d12ac5f9466c9152031",
+      "css": "book",
+      "code": 59408,
+      "src": "fontawesome"
+    },
+    {
       "uid": "dd6c6b221a1088ff8a9b9cd32d0b3dd5",
       "css": "check",
       "code": 59393,
@@ -77,6 +83,12 @@
       "src": "entypo"
     },
     {
+      "uid": "bcb868184ff9c35f8aef564f50c0d649",
+      "css": "feather",
+      "code": 59406,
+      "src": "entypo"
+    },
+    {
       "uid": "540b6a4262be769515c79700618b4aea",
       "css": "address",
       "code": 59400,
@@ -92,6 +104,12 @@
       "uid": "64f5a50cf7ac972a56a9a511acb5d28e",
       "css": "map",
       "code": 59402,
+      "src": "entypo"
+    },
+    {
+      "uid": "e126987944593dfee041f8e2a68145db",
+      "css": "basket",
+      "code": 59407,
       "src": "entypo"
     },
     {
@@ -117,6 +135,12 @@
       "css": "email",
       "code": 59396,
       "src": "zocial"
+    },
+    {
+      "uid": "d30928620bda0d5eaa85d3b65bf19963",
+      "css": "right-circle",
+      "code": 59409,
+      "src": "websymbols"
     }
   ]
 }
