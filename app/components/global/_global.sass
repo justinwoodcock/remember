@@ -1,18 +1,38 @@
+@font-face
+    font-family: 'SnellRoundhand-Script'
+    src: url('../font/SnellRoundhand-Script.eot?#iefix') format('embedded-opentype'),  url('../font/SnellRoundhand-Script.woff') format('woff'), url('../font/SnellRoundhand-Script.ttf')  format('truetype'), url('../font/SnellRoundhand-Script.svg#SnellRoundhand-Script') format('svg')
+    font-weight: normal
+    font-style: normal
+
+@font-face
+    font-family: 'ThomasPaineRegularSWFTE'
+    src: url('../font/ThomasPaineRegularSWFTE.eot?#iefix') format('embedded-opentype'),  url('../font/ThomasPaineRegularSWFTE.woff') format('woff'), url('../font/ThomasPaineRegularSWFTE.ttf')  format('truetype'), url('../font/ThomasPaineRegularSWFTE.svg#ThomasPaineRegularSWFTE') format('svg')
+    font-weight: normal
+    font-style: normal
+
 body, html
     width: 100%
     height: 100%
     position: relative
 body
     padding-bottom: 62px
-    h1
-        border-bottom: 2px solid $secondary
-        padding-bottom: 20px
-        margin-bottom: 30px
-    
-    p
-        font-size: 14px
-        line-height: 24px
-        font-weight: 300
+h1
+    border-bottom: 2px solid $secondary
+    padding-bottom: 20px
+    margin-bottom: 30px
+    font-family: 'SnellRoundhand-Script'
+    font-size: 52px
+    margin-top: 30px
+
+p
+    font-size: 16px
+    line-height: 24px
+    font-weight: 300
+
+a
+    color: $primary
+    &:hover
+        color: $primary
 
 .parallax-panel
     position: relative
@@ -20,7 +40,7 @@ body
     overflow: hidden
     border-bottom: 1px solid rgba(0, 0, 0, 0.7)
 .img-parallax
-    //min-height: 100%
+    height: 120%
     width: 100%
     position: absolute
     margin: -10% 0
